@@ -1,12 +1,16 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import logo from '../images/logo.png'
 
 const Banner = ({ siteTitle }) => (
   <section className="hero">
     <div className="container">
       <div className="brand">
-        <img src="../images/logo.png" className="brand-img img-responsive" />
+        <img
+          src={logo}
+          className="brand-img img-responsive"
+        />
       </div>
       <div className="navicon">
         <a id="nav-toggle" className="nav-slide-btn" href="#"><span></span></a>

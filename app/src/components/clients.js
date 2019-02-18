@@ -2,6 +2,14 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
+import logoBootstrap from '../images/partner-logos/logo-bootstrap.png';
+import logoLess from '../images/partner-logos/logo-less.png';
+import logoSass from '../images/partner-logos/logo-sass.png';
+import logoYeoman from '../images/partner-logos/logo-yeoman.png';
+import logoBower from '../images/partner-logos/logo-bower.png';
+import logoJquery from '../images/partner-logos/logo-jquery.png';
+
+
 const Clients = ({ siteTitle }) => (
   <section id="content-1-7" className="content-1-7 content-block">
 		<div className="container">
@@ -18,27 +26,27 @@ const Clients = ({ siteTitle }) => (
 			<div className="cients-wrap">
 				<div className="row">
 					<div className="col-md-2 col-sm-4 col-xs-6">
-						<img alt="Client Logo" src="images/partner-logos/logo-bootstrap.png" />
+						<img alt="Bootstrap" src={logoBootstrap} />
 					</div>
 
 					<div className="col-md-2 col-sm-4 col-xs-6">
-						<img alt="Client Logo" src="images/partner-logos/logo-less.png" />
+            <img alt="Less" src={logoLess} />
 					</div>
 
 					<div className="col-md-2 col-sm-4 col-xs-6">
-						<img alt="Client Logo" src="images/partner-logos/logo-sass.png" />
+          <img alt="Sass" src={logoSass} />
 					</div>
 
 					<div className="col-md-2 col-sm-4 col-xs-6">
-						<img alt="Client Logo" src="images/partner-logos/logo-yeoman.png" />
+						<img alt="Yeoman" src={logoYeoman} />
 					</div>
 
 					<div className="col-md-2 col-sm-4 col-xs-6">
-						<img alt="Client Logo" src="images/partner-logos/logo-bower.png" />
+            <img alt="Bower" src={logoBower} />
 					</div>
 
 					<div className="col-md-2 col-sm-4 col-xs-6">
-						<img alt="Client Logo" src="images/partner-logos/logo-jquery.png" />
+          <img alt="jQuery" src={logoJquery} />
 					</div>
 				</div>
 			</div>
