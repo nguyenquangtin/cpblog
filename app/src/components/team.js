@@ -2,6 +2,12 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
+import teamZoro from "../images/team_zoro.png";
+import teamLaw from "../images/team_law.png";
+import teamCoby from "../images/team_coby.png";
+import teamTiger from "../images/team_tiger.png";
+
+
 const Team = () => (
 <section className="content-block team-1">
   <div className="container">
@@ -18,7 +24,7 @@ const Team = () => (
 
       <div className="col-md-3 col-sm-6 team-member-wrap">
         <div className="team-member">
-          <img src="images/team_zoro.png" className="img-responsive" alt="Member Image" />
+          <img src={teamZoro} className="img-responsive" alt="Member Image" />
           <div className="team-details">
             <div className="editContent">
               <h4 className="member-name">ZORO</h4>
@@ -31,7 +37,7 @@ const Team = () => (
 
       <div className="col-md-3 col-sm-6 team-member-wrap">
         <div className="team-member">
-          <img src="images/team_law.png" className="img-responsive" alt="Member Image" />
+          <img src={teamLaw} className="img-responsive" alt="Member Image" />
           <div className="team-details">
             <div className="editContent">
               <h4 className="member-name">LAW</h4>
@@ -44,7 +50,7 @@ const Team = () => (
 
       <div className="col-md-3 col-sm-6 team-member-wrap">
         <div className="team-member">
-          <img src="images/team_coby.png" className="img-responsive" alt="Member Image" />
+          <img src={teamCoby} className="img-responsive" alt="Member Image" />
           <div className="team-details">
             <div className="editContent">
               <h4 className="member-name">COBY</h4>
@@ -57,7 +63,7 @@ const Team = () => (
 
       <div className="col-md-3 col-sm-6 team-member-wrap">
         <div className="team-member">
-          <img src="images/team_tiger.png" className="img-responsive" alt="Member Image" />
+          <img src={teamTiger} className="img-responsive" alt="Member Image" />
           <div className="team-details">
             <div className="editContent">
               <h4 className="member-name">TIGER</h4>

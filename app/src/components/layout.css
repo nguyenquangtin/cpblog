@@ -142,7 +142,7 @@ button:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 fieldset {
-  border: 1px solid silver;
+  border: none;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }

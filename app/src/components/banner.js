@@ -22,7 +22,7 @@ const Banner = ({ siteTitle }) => (
         </div>
       </div>
       <div className="col-xs-12 text-center">
-        <a href="#" className="btn btn-ghost">More Features</a>
+        <a href="#feature" className="btn btn-ghost">More Features</a>
       </div>
     </div>
   </section>

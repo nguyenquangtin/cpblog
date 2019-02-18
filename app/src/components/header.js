@@ -9,6 +9,7 @@ const Header = ({ siteTitle }) => (
       background: `rebeccapurple`,
       marginBottom: `1.45rem`,
     }}
+    id='header-3'
   >
 		<nav>
 			<div className="container">
