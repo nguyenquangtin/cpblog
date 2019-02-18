@@ -2,6 +2,10 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
+import iconProfessional from "../images/icon_professional.png";
+import iconDigital from "../images/icon_digital.png";
+import iconGlobal from "../images/icon_global.png";
+
 const Feature = ({ siteTitle }) => (
   <section id="content-1-3" className="content-block content-1-3">
 		<div className="container">
@@ -15,7 +19,7 @@ const Feature = ({ siteTitle }) => (
 					<div className="services-wrapper">
 						<div className="col-md-4">
 							<div className="icon">
-								<img src="images/icon_professional.png" alt="" />
+								<img src={iconProfessional} alt="Group of Professional" />
 							</div>
 							<div className="editContent">
 								<h4>Group of Professional</h4>
@@ -26,7 +30,7 @@ const Feature = ({ siteTitle }) => (
 						</div>
 						<div className="col-md-4">
 							<div className="icon">
-								<img src="images/icon_digital.png" alt="" />
+								<img src={iconDigital} alt="Digital Marketing Solution" />
 							</div>
 							<div className="editContent">
 								<h4>Digital Marketing Solution</h4>
@@ -37,7 +41,7 @@ const Feature = ({ siteTitle }) => (
 						</div>
 						<div className="col-md-4">
 							<div className="icon">
-								<img src="images/icon_global.png" alt="" />
+								<img src={iconGlobal} alt="Able to Work Globally" />
 							</div>
 							<div className="editContent">
 								<h4>Able to Work Globally</h4>

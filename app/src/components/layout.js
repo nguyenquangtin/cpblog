@@ -4,6 +4,8 @@ import { StaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import Footer from "./footer"
+import ConactDevider from "./contactDevider"
+import Contact from "./contact"
 import Copyright from "./copyright"
 import "./layout.css"
 
@@ -24,6 +26,8 @@ const Layout = ({ children }) => (
         <main>
           {children}
         </main>
+        <ConactDevider />
+        <Contact />
         <Footer />
         <Copyright />
       </React.Fragment>

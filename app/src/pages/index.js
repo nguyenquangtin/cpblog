@@ -16,9 +16,6 @@ const IndexPage = () => (
     <Services />
     <Team />
     <Client />
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
   </Layout>
 )
 
