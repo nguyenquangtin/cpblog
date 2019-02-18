@@ -2,6 +2,12 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
+import iconX from '../images/icon_x.png';
+import iconUpdate from '../images/icon_update.png';
+import iconUnique from '../images/icon_unique.png';
+import iconCoding from '../images/icon_coding.png';
+import iconQc from '../images/icon_qc.png';
+
 const Services = ({ siteTitle }) => (
 	<section id="content-1-4" className="content-block-nopad content-1-4">
 		<div className="container-fluid">
@@ -14,7 +20,7 @@ const Services = ({ siteTitle }) => (
 								in one place
 							</h2>
 							<p>
-								<img src="images/icon_x.png" alt="" />
+								<img src={iconX} alt="X" />
 							</p>
 								<p>The One Piece manga and anime series features an extensive cast of characters created by Eiichiro Oda. The series takes place in a fictional universe where vast numbers of pirates, soldiers, revolutionaries. </p>
 						</div>
@@ -27,7 +33,7 @@ const Services = ({ siteTitle }) => (
 	        <div className="row">
 	            <div className="col-md-12 col-sm-12 col-xs-12 pad25">
 	                <div className="col-xs-2">
-	                    <img src="images/icon_update.png" alt="" />
+	                    <img src={iconUpdate} alt="UP TO DATE SOLUTION" />
 	                </div>
 	                <div className="col-xs-10">
 	                    <div className="editContent">
@@ -40,7 +46,7 @@ const Services = ({ siteTitle }) => (
 	            </div>
 	            <div className="col-md-12 col-sm-12 col-xs-12 pad25">
 	                <div className="col-xs-2">
-	                	<img src="images/icon_unique.png" alt="" />
+	                	<img src={iconUnique} alt="UNIQUE DESIGN" />
 	                </div>
 	                <div className="col-xs-10">
 	                    <div className="editContent">
@@ -53,7 +59,7 @@ const Services = ({ siteTitle }) => (
 	            </div>
 	            <div className="col-md-12 col-sm-12 col-xs-12 pad25">
 	                <div className="col-xs-2">
-	                  <img src="images/icon_coding.png" alt="" />
+	                  <img src={iconCoding} alt="PROFESSIONAL CODING" />
 	                </div>
 	                <div className="col-xs-10">
 	                    <div className="editContent">
@@ -67,7 +73,7 @@ const Services = ({ siteTitle }) => (
 
       			    <div className="col-md-12 col-sm-12 col-xs-12 pad25">
       			        <div className="col-xs-2">
-      			            <img src="images/icon_qc.png" alt="" />
+      			            <img src={iconQc} alt="QC TEST" />
       			        </div>
       			        <div className="col-xs-10">
       			            <div className="editContent">
