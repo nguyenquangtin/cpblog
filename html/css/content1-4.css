@@ -1,0 +1,63 @@
+/*	CONTENT BLOCK 1-4
+/*----------------------------------------------------*/
+
+.content-1-4 {
+	padding: 0px;
+	position: relative;
+}
+
+.content-1-4 .image-container {
+/* 	position: absolute;
+ */	
+ 	/* height: 100%; */
+	padding: 0px;
+	top: 0px;
+}
+
+.content-1-4 .image-container .bg-features {
+	background: #000 url('../images/bg_features.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 650px;
+	text-align: center;
+	color:#FFF;
+}
+
+.content-1-4 .image-container .bg-features h2{
+	margin-top: 200px;
+
+}
+
+.content-1-4 .image-container .bg-features p {
+	color: #FFF;
+}
+}
+
+.content-1-4 .content {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.content-1-4 h1 {
+	margin-bottom: 32px;
+}
+
+.content-1-4 p.lead {
+	margin-bottom: 20px;
+}
+
+
+
+/*	CONTENT BLOCK 1-4 MEDIA QUERIES
+/*----------------------------------------------------*/
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) {
+
+/* 	.content-1-4 .image-container {
+		display: none;
+	}
+ */
+}
