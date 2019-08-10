@@ -10,10 +10,10 @@ const Contact = () => (
 					<div id="contact" className="form-container">
           <fieldset>
 	          <div id="message"></div>
-            <p className="hidden">
-              <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
-            </p>
-						<form name="contact" method="POST" data-netlify="true">
+						<form name="contact"  method="POST" data-netlify="true" netlify-honeypot="bot-field">
+              <div className="hidden">
+                <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+              </div>
 							<div className="form-group">
 								<input name="name" id="name" type="text" placeholder="Name" className="form-control" required />
 							</div>
