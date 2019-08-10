@@ -22,10 +22,10 @@ const Feature = ({ siteTitle }) => (
 								<img src={iconProfessional} alt="Group of Professional" />
 							</div>
 							<div className="editContent">
-								<h4>Group of Professional</h4>
+								<h4>Virtual Community</h4>
 							</div>
 							<div className="editContent">
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem.</p>
+								<p>We are a group of professional software developers. Join us to enjoy cost efficient and flexible software development solution.</p>
 							</div>
 						</div>
 						<div className="col-md-4">
@@ -33,10 +33,10 @@ const Feature = ({ siteTitle }) => (
 								<img src={iconDigital} alt="Digital Marketing Solution" />
 							</div>
 							<div className="editContent">
-								<h4>Digital Marketing Solution</h4>
+								<h4>Agile development.</h4>
 							</div>
 							<div className="editContent">
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem.</p>
+								<p>Development method that give you the real “touch” of your software at short and frequent releases.</p>
 							</div>
 						</div>
 						<div className="col-md-4">
@@ -44,10 +44,10 @@ const Feature = ({ siteTitle }) => (
 								<img src={iconGlobal} alt="Able to Work Globally" />
 							</div>
 							<div className="editContent">
-								<h4>Able to Work Globally</h4>
+								<h4>Members</h4>
 							</div>
 							<div className="editContent">
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem.</p>
+								<p>Enhance your development skills, challenge yourself with new domain and technology. Together we create a standout position for you in the job market.</p>
 							</div>
 						</div>
 					</div>
