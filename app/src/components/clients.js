@@ -56,6 +56,7 @@ class Clients extends Component {
               <img alt={client.name} src={client.logo} />
             </div>
           ))}
+
 				</div>
 			</div>
 		</div>
