@@ -10,16 +10,18 @@ const Contact = () => (
 					<div id="contact" className="form-container">
           <fieldset>
 	          <div id="message"></div>
-
+            <p className="hidden">
+              <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+            </p>
 						<form name="contact" method="POST" data-netlify="true">
 							<div className="form-group">
-								<input name="name" id="name" type="text" value="" placeholder="Name" className="form-control" required />
+								<input name="name" id="name" type="text" placeholder="Name" className="form-control" required />
 							</div>
 							<div className="form-group">
-                <input name="email" id="email" type="text" value="" placeholder="Email" className="form-control" required />
+                <input name="email" id="email" type="text" placeholder="Email" className="form-control" required />
 							</div>
 							<div className="form-group">
-                <input name="subject" id="subject" type="text" value="" placeholder="Subject" className="form-control" required />
+                <input name="subject" id="subject" type="text" placeholder="Subject" className="form-control" required />
 							</div>
 							<div className="form-group">
 	              <textarea name="comments" id="comments" className="form-control" required rows="3" placeholder="Message"></textarea>

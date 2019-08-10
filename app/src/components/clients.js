@@ -1,4 +1,3 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React, { Component } from 'react'
 import Swal from 'sweetalert2'
@@ -50,7 +49,7 @@ class Clients extends Component {
 			<div className="cients-wrap">
 				<div className="row">
 
-          <div class="col-md-offset-1">&nbsp;</div>
+          <div className="col-md-offset-1">&nbsp;</div>
 
           {clients.map( (client, index) => (
             <div key={index} className="col-md-2 col-sm-4 col-xs-6" onClick={() => this.handleClick(client)}>
