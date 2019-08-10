@@ -19,7 +19,7 @@ const Copyright = () => (
 
 				<div className="col-md-6 col-xs-12 pull-right">
 					<p className="text-right">
-            © {new Date().getFullYear()}. All Right Reserved 2016.
+            Copyright &copy; {new Date().getFullYear()} CipherPols. All rights reserved.
 					</p>
 				</div>
 			</div>
