@@ -95,6 +95,7 @@ class Contact extends React.Component {
                         rows="3"
                         placeholder="Message"
                         name="message"
+                        style={{ paddingLeft: 10, paddingTop: 10 }}
                       />
                       <div className="editContent">
                         <p className="small text-muted">
@@ -128,7 +129,6 @@ class Contact extends React.Component {
 }
 
 // Contact.PropTypes = {};
-
 // Contact.defaultProps = {};
 
 export default Contact;
