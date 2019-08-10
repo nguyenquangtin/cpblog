@@ -36,7 +36,7 @@ class Contact extends React.Component {
       <section className="content-block contact-2">
         <div className="container">
           <div className="row">
-            <div className="col-md-12">
+            <div className="col-md-6 col-md-offset-3 col-xs-12">
               <div id="contact" className="form-container">
                 <fieldset>
                   <form
