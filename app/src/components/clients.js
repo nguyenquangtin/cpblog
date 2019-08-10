@@ -1,6 +1,7 @@
 import PropTypes from "prop-types"
 import React, { Component } from 'react'
 import Swal from 'sweetalert2'
+import styled from 'styled-components';
 
 import logoDetecq from '../images/partner-logos/client_detecq.png';
 import logoLtw from '../images/partner-logos/client_ltw.png';
@@ -35,32 +36,32 @@ class Clients extends Component {
   render() {
     return (
       <section id="content-1-7" className="content-1-7 content-block">
-		<div className="container">
-			<div className="row">
-				<div className="col-md-10 col-md-offset-1 text-center">
-	      	<h1>CLIENTS</h1>
-					<p>
-            Our customers have trusted in our work, don't be hesitate to join our happy customer team. <br />
-            Cipherpol will elevate your business website to the next level.
-					</p>
-	    	</div>
-    	</div>
-    	<div className="clearfix"></div>
-			<div className="cients-wrap">
-				<div className="row">
-
-          <div className="col-md-offset-1">&nbsp;</div>
-
-          {clients.map( (client, index) => (
-            <div key={index} className="col-md-2 col-sm-4 col-xs-6" onClick={() => this.handleClick(client)}>
-              <img alt={client.name} src={client.logo} />
+        <div className="container">
+          <div className="row">
+            <div className="col-md-10 col-md-offset-1 text-center">
+              <h1>CLIENTS</h1>
+              <p>
+                Our customers have trusted in our work, don't be hesitate to join our happy customer team. <br />
+                Cipherpol will elevate your business website to the next level.
+              </p>
             </div>
-          ))}
+          </div>
+          <div className="clearfix"></div>
+          <div className="cients-wrap">
+            <div className="row">
 
-				</div>
-			</div>
-		</div>
-  </section>
+              <div className="col-md-offset-1">&nbsp;</div>
+
+              {clients.map( (client, index) => (
+                <ClientCard key={index} className="col-md-2 col-sm-4 col-xs-6" onClick={() => this.handleClick(client)}>
+                  <img alt={client.name} src={client.logo} />
+                </ClientCard>
+              ))}
+
+            </div>
+          </div>
+        </div>
+      </section>
     )
   }
 }
@@ -72,6 +73,29 @@ Clients.defaultProps = {
 }
 
 export default Clients
+
+const ClientCard = styled.div`
+  border: 1px solid #eee;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  height: 100px !important;
+  overflow: 'hidden';
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.1, 1.1);
+    box-shadow: 0 15px 30px rgba(0,0,0, 0.5);
+    transition: all .2s ease-in;
+    transition-delay: .1s;
+  }
+
+  &:hover img {
+    transform: translateY(-2px);
+    transition: all .2s ease-in;
+    transition-delay: .1s;
+  }
+`;
 
 
 const clients = [

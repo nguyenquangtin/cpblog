@@ -101,10 +101,14 @@ const Container = styled.div`
   &:hover {
     transform: scale(1.1, 1.1);
     box-shadow: 0 30px 60px rgba(0,0,0, 0.5);
+    transition: all .2s ease-in;
+    transition-delay: .1s;
   }
 
   &:hover img {
     transform: translateY(-20px);
+    transition: all .2s ease-in;
+    transition-delay: .1s;
   }
 `;
 
