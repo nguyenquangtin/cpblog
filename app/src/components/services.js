@@ -1,18 +1,20 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import styled from 'styled-components';
 
 import iconX from '../images/icon_x.png';
 import iconUpdate from '../images/icon_update.png';
 import iconUnique from '../images/icon_unique.png';
 import iconCoding from '../images/icon_coding.png';
 import iconQc from '../images/icon_qc.png';
+import bgFeatures from '../images/bg_features.jpg';
 
 const Services = ({ siteTitle }) => (
 	<section id="content-1-4" className="content-block-nopad content-1-4">
 		<div className="container-fluid">
 			<div className="image-container col-md-6">
-				<div className="bg-features">
+				<Feature className="bg-features">
 					<div className="row">
 						<div className="col-md-8 col-md-offset-2">
 							<h2>
@@ -22,11 +24,11 @@ const Services = ({ siteTitle }) => (
 							<p>
 								<img src={iconX} alt="X" />
 							</p>
-								<p>The One Piece manga and anime series features an extensive cast of characters created by Eiichiro Oda. The series takes place in a fictional universe where vast numbers of pirates, soldiers, revolutionaries. </p>
+								<p>Full stack software development includes: graphic design, project management, coding and testing service. We are inspired by Eiichiro Oda with his manga - The One Piece. Join us to explore the new journey in your career and business.</p>
 						</div>
 
 					</div>
-				</div>
+				</Feature>
 			</div>
 
 			<div className="col-md-6">
@@ -37,10 +39,10 @@ const Services = ({ siteTitle }) => (
 	                </div>
 	                <div className="col-xs-10">
 	                    <div className="editContent">
-	                        <h4>UP TO DATE SOLUTION</h4>
+	                        <h4>PHP</h4>
 	                    </div>
 	                    <div className="editContent">
-	                        <p>Retro chillwave YOLO four loko photo booth. Brooklyn kale chips, seitan hella 3 wolf moon slow-carb paleo.</p>
+	                        <p>We are specialized in all PHP framework. Check out our project portfolio to see our past work.</p>
 	                    </div>
 	                </div>
 	            </div>
@@ -53,7 +55,7 @@ const Services = ({ siteTitle }) => (
 	                        <h4>UNIQUE DESIGN</h4>
 	                    </div>
 	                    <div className="editContent">
-	                        <p>Retro chillwave YOLO four loko photo booth. Brooklyn kale chips, seitan hella 3 wolf moon slow-carb paleo.</p>
+	                        <p>Try our design to deliver the best UI/UX for your software.</p>
 	                    </div>
 	                </div>
 	            </div>
@@ -63,10 +65,10 @@ const Services = ({ siteTitle }) => (
 	                </div>
 	                <div className="col-xs-10">
 	                    <div className="editContent">
-	                        <h4>PROFESSIONAL CODING</h4>
+	                        <h4>CONSULTATION</h4>
 	                    </div>
 	                    <div className="editContent">
-	                        <p>Retro chillwave YOLO four loko photo booth. Brooklyn kale chips, seitan hella 3 wolf moon slow-carb paleo.</p>
+	                        <p>Contact us to enjoy the first consultation meeting at no cost. We have experienced consultant for your business whether it is well-established or startup.</p>
 	                    </div>
 	                </div>
 	        			</div>
@@ -77,10 +79,10 @@ const Services = ({ siteTitle }) => (
       			        </div>
       			        <div className="col-xs-10">
       			            <div className="editContent">
-      			                <h4>QC TEST</h4>
+      			                <h4>TESTING SERVICE</h4>
       			            </div>
       			            <div className="editContent">
-      			                <p>Retro chillwave YOLO four loko photo booth. Brooklyn kale chips, seitan hella 3 wolf moon slow-carb paleo.</p>
+      			                <p>Enjoy our cost-efficiency testing service for your software. Leave the tedious job to us and enjoy a high quality software.</p>
       			            </div>
       			        </div>
       						</div>
@@ -95,5 +97,13 @@ Services.propTypes = {
 
 Services.defaultProps = {
 }
+
+const Feature = styled.div`
+  background: #000 url(${bgFeatures}) no-repeat center center;
+  background-size: cover;
+  height: 650px;
+  text-align: center;
+  color: #FFF;
+`;
 
 export default Services
