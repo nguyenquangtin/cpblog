@@ -2,9 +2,6 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import logoFooter from '../images/logo_footer.png'
-
-
-
 const Footer = () => (
 <section className="content-block-nopad bg-black">
   <div className="container footer-1-1">

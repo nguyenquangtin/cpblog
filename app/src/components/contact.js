@@ -1,6 +1,21 @@
 import React, { Component } from "react";
 import { Link } from "gatsby";
 import PropTypes from "prop-types";
+import styled from 'styled-components'
+import Wave from './Wave';
+
+const WaveBottom = styled.div`
+  position: absolute;
+  width: 100%;
+  bottom: -6px;
+`;
+
+const WaveTop = styled.div`
+  position: absolute;
+  width: 100%;
+  top: -6px;
+  transform: rotate(180deg);
+`;
 
 const encode = (data) => {
   return Object.keys(data)
@@ -34,6 +49,8 @@ class Contact extends React.Component {
     const { name, email, message, subject } = this.state;
     return (
       <section className="content-block contact-2">
+        {/* <WaveTop><Wave /></WaveTop>
+        <WaveBottom><Wave /></WaveBottom> */}
         <div className="container">
           <div className="row">
             <div className="col-md-6 col-md-offset-3 col-xs-12">
