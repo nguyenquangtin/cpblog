@@ -11,18 +11,18 @@ const Contact = () => (
           <fieldset>
 	          <div id="message"></div>
 
-						<form method="post" action="#" name="contactform" id="contactform">
+						<form name="contact" method="POST" data-netlify="true">
 							<div className="form-group">
-								<input name="name" id="name" type="text" value="" placeholder="Name" className="form-control" />
+								<input name="name" id="name" type="text" value="" placeholder="Name" className="form-control" required />
 							</div>
 							<div className="form-group">
-                <input name="email" id="email" type="text" value="" placeholder="Email" className="form-control" />
+                <input name="email" id="email" type="text" value="" placeholder="Email" className="form-control" required />
 							</div>
 							<div className="form-group">
-                <input name="subject" id="subject" type="text" value="" placeholder="Subject" className="form-control" />
+                <input name="subject" id="subject" type="text" value="" placeholder="Subject" className="form-control" required />
 							</div>
 							<div className="form-group">
-	              <textarea name="comments" id="comments" className="form-control" rows="3" placeholder="Message"></textarea>
+	              <textarea name="comments" id="comments" className="form-control" required rows="3" placeholder="Message"></textarea>
 								<div className="editContent">
 									<p className="small text-muted"><span className="guardsman">* All fields are required.</span> Once we receive your message we will respond as soon as possible.</p>
 								</div>
