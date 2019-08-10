@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 import logo from '../images/logo.png'
 import styled from 'styled-components'
-import Wave from './Wave';
+import Wave from './wave';
 
 const WaveBottom = styled.div`
   position: absolute;

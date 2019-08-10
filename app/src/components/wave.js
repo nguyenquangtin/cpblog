@@ -14,4 +14,4 @@ const Wave = () => (
     </svg>
 )
 
-export default Wave
+export default Wave;
