@@ -8,6 +8,7 @@ import styled from 'styled-components';
 import teamZoro from "../images/team_zoro.png";
 import teamLaw from "../images/team_law.png";
 import teamChopper from "../images/team_chopper.png";
+import teamChopperBig from "../images/team_chopper_big.png";
 import teamLuffy from "../images/team_luffy.png";
 import teamDragon from "../images/team_dragon.png";
 import teamNami from "../images/team_nami.png";
@@ -24,6 +25,20 @@ class Team extends Component {
       this.handleClick = this.handleClick.bind(this);
   }
 
+   profileBuilder = (team) => {
+    let htmlProfile = '<p>';
+    htmlProfile += "<img style='float:right;' class='avatar' src='" + team.profilePhoto + "' alt='" + team.name + "' />";
+    htmlProfile += '<p><b>Code</b>: ' + team.code  + '<br />';
+    htmlProfile += '<b>Role:</b> ' + team.role  + '<br />';
+    htmlProfile += '<b>Birthday:</b> ' + team.birthday  + '<br />';
+    htmlProfile += '<b>Special:</b> ' + team.special  + '<br />';
+    htmlProfile += '<b>Skills:</b> ' + team.skills  + '<br />';
+    htmlProfile += '<b>Profile:</b> ' + team.profile  + '<br />';
+    htmlProfile += '<b>Profile Link:</b> <a href="' + team.profileUrl + '" target="_blank" rel="nofollow">LinkedIn</a> <br />';
+    htmlProfile += "</p>";
+    return htmlProfile;
+  }
+
   handleClick(team) {
     this.setState(prevState => ({
       showModal: !prevState.showModal
@@ -32,7 +47,7 @@ class Team extends Component {
     Swal.fire({
       title: team.name,
       url: team.profileUrl,
-      html: team.profile,
+      html: this.profileBuilder(team),
       imageUrl: team.logo,
       imageWidth: 200,
       imageHeight: 'auto',
@@ -175,78 +190,113 @@ const teams = [
     name: 'Tuan Duong',
     role: 'Samurai Coder',
     avatar: teamZoro,
+    profilePhoto: "",
     profileUrl: 'https://github.com/tuandm',
-    profile: ""
+    profile: "",
+    skills: "",
+    birthday: "",
+    special: "",
   },
   {
     code: 'Law',
     name: 'Duc Duong',
     role: 'Operation Coder',
     avatar: teamLaw,
+    profilePhoto: "",
     profileUrl: '',
-    profile: ""
+    profile: "",
+    skills: "",
+    birthday: "",
+    special: "",
   },
   {
-    code: 'Chopper',
+    code: 'トニー ングイアン <br /> (tonii nguian)',
     name: 'Tony Nguyen',
     role: 'Website Doctor',
     avatar: teamChopper,
+    profilePhoto: teamChopperBig,
     profileUrl: 'https://www.linkedin.com/in/tonytinnguyen/',
-    profile: "Across the last 10 years, I have developed/designed a wide range of websites, blogs with particular expertise in creating custom WordPress, PHP, and NodeJS, ReactJS sites. Solid experience in Javascript, NodeJS, ReactJS, CSS3, HTML5, PHP, MySQL, and adhering to accessibility standards. \r\nCustomer-relationship skills: producing clear, detailed project outlines and progress reports, timeline. Adjusting technical explanations to the client's knowledge level. Handle various campaign and project for leading Singapore brand BreadTalk (and it sub-brands The Icing Room, Din Tai Fung, The Icing Room, Ramen Play, ToastBox and Food Republic), international brand CooperVision (Asia Pacific Area), LeadToWin, Ezland, Phuc Khang, Vinawealth (Vinacapital).",
+    profile: "Across the last 10 years, Chopper was fighting across the South East Asia sea. He  have developed/designed a wide range of websites, blogs with particular experti  se in creating custom WordPress, PHP, and NodeJS, ReactJS sites. Solid experience in Javascript, NodeJS, ReactJS, CSS3, HTML5, PHP, MySQL, and adhering to accessibility standards.",
+    skills: "Javascript, NodeJS, ReactJS, CSS3, HTML5, PHP, UI/UX.",
+    birthday: "29th Nov",
+    special: "Hito Hito no Mi",
   },
   {
     code: 'Luffy',
     name: 'Nhan Doan',
     role: 'Gum Gum Developer',
     avatar: teamLuffy,
+    profilePhoto: "",
     profileUrl: '',
     profile: "",
+    skills: "",
+    birthday: "",
+    special: "",
   },
   {
     code: 'Sabo',
     name: 'Duy Nguyen',
     role: 'Revolutionary Developer',
     avatar: teamSabo,
+    profilePhoto: "",
     profileUrl: '',
     profile: "",
+    skills: "",
+    birthday: "",
+    special: "",
   },
   {
     code: 'Sunny',
     name: 'Phat Nguyen',
     role: 'Supernova Coder',
     avatar: teamSunny,
+    profilePhoto: "",
     profileUrl: '',
     profile:"",
+    birthday: "",
+    special: "",
   },
   {
     code: 'Monkey D Dragon',
     name: 'Tuan Nguyen',
     role: 'Revolution Server Expert',
     avatar: teamDragon,
+    profilePhoto: "",
     profileUrl: '',
     profile: "",
+    skills: "",
+    birthday: "",
+    special: "",
   },
   {
     code: 'Nami',
     name: 'Vi Ha',
     role: 'Revolution Developer',
     avatar: teamNami,
+    profilePhoto: "",
     profileUrl: '',
     profile: "",
+    skills: "",
+    birthday: "",
+    special: "",
   },
   {
     code: 'Smoke',
     name: 'Huy Quan',
     role: 'Marine Developer',
     avatar: teamSmoker,
+    profilePhoto: "",
     profileUrl: '',
     profile: '',
+    birthday: "",
+    special: "",
   },
   {
     code: 'Kizaru',
     name: 'Bach Bach',
     role: 'Marine Developer',
     avatar: teamKizaru,
+    profilePhoto: "",
     profileUrl: '',
     profile: '',
   },

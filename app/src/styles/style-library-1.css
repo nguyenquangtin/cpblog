@@ -260,10 +260,15 @@ h6,
 .h2,
 .h3,
 .h4,
-.h5,
-.h6 {
+.h5 {
   font-family: "OnePiece", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  line-height: 1.1;
+}
+
+.h6 {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   line-height: 1.1;
 }
 
