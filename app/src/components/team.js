@@ -32,7 +32,7 @@ class Team extends Component {
     Swal.fire({
       title: team.name,
       url: team.profileUrl,
-      text: team.profile,
+      html: team.profile,
       imageUrl: team.logo,
       imageWidth: 200,
       imageHeight: 'auto',
@@ -176,30 +176,7 @@ const teams = [
     role: 'Samurai Coder',
     avatar: teamZoro,
     profileUrl: 'https://github.com/tuandm',
-    profile: "<p><strong>I.SKILLS</strong></p>\
-    <p>❖ Web Developer in the wide variety of business like Accounting system, E-commerce application.</p>\
-    <p>❖ Working with PHP, MySQL.</p>\
-    <p>❖ Experienced in handling performance and security for high-traffic websites.</p>\
-    <p>❖ Experienced in frameworks/applications/technologies: Zend, Yii, CodeIgniter, Slim, Restler,</p>\
-    <p>❖ SalesForce, jQuery, MySQL, Sphinx, Nginx, Memcached, NodeJS, and more.</p>\
-    <p><strong>II.EXPERIENCES</strong></p>\
-    <p><strong>1)Technical Team Lead - Lazada Group</strong>\
-        ❖ September 2014 – Present (1 year 11 months)Ho Chi Minh, Vietnam</p>\
-    <p>❖ Manage all technical issues in the development.</p>\
-    <p>❖ Manage coding quality from team's output.</p>\
-    <p>❖ Handle all the issues that are crazy and undoable.</p>\
-    <p><strong>2) Senior PHP Developer - FunnyJunk LLC</strong></p>\
-    <p>❖ April 2011 – September 2014 (3 years 6 months) Vietnam</p>\
-    <p>❖ Implement new features, fix bugs, enhance performances</p>\
-    <p>❖ Implement chat system can handle over 10K concurrent connections</p>\
-    <p>❖ Implement mobile site/application (android/iOS) for www.funnyjunk.com</p>\
-    <p>❖ Funnyjunk - Funny Pictures, Funny Videos and other Funny stuff</p>\
-    <p><strong>3) Technical Director - Webs-pro</strong></p>\
-    <p>❖ April 2010 – April 2011 (1 year 1 month)</p>\
-    <p><strong>4) Senior Developer - Clearpath Development</strong></p>\
-    <p>❖ January 2009 – April 2009 (4 months)</p>\
-    <p><strong>5) Senior Developer - E-zea</strong></p>\
-    <p>May 2008 – January 2009 (9 months)</p>"
+    profile: ""
   },
   {
     code: 'Law',
@@ -207,27 +184,7 @@ const teams = [
     role: 'Operation Coder',
     avatar: teamLaw,
     profileUrl: '',
-    profile: "<p><strong>I. PERSONAL SUMMARY</strong></p>\
-    <p>❖ 10 years of experience in software application development. 4 years working as development\
-        team leader.\
-        ❖ 7 years of experience in Java/J2EE development.\
-        ❖ 10 years working on web development.\
-        ❖ Familiar with onshore/offshore working model. Have onsite working experience with client in\
-        USA.\
-        ❖ Have self education ability. Can work with high pressure and heavy overtime.</p>\
-    <p><strong>II. SKILL SET</strong></p>\
-    <p>❖ Languages &amp; Scripting: Java/J2EE, PHP, XML, HTML, JavaScript, CSS, NodeJS, AngularJS.\
-        ❖ Middleware: MVC Struts Framework, MVC Spring Framework.\
-        ❖ Open Source/3rd party tool/library: Hibernate, log4J Logging Service, POI, Spring Security, Axis PdfBox.\
-        ❖ Operating Systems: Linux.\
-        ❖ Databases: MySQL 5, MSSQL 2005 / 2008.\
-        ❖ Web Servers: Apache Tomcat, JBoss Server 5.\
-        ❖ Portals: Jboss Portal, Liferay Portal.\
-        ❖ Configuration Management Tools: Git, TortoiseSVN, CVS.\
-        ❖ Tracking Tools: JIRA, Eventum.\
-        ❖ Development Tools: Eclipse.\
-        ❖ PHP CMS: Wordpress, Joomla (1.5, 1.7), Drupal (6), Sugar CRM, Moodle.\
-    </p>"
+    profile: ""
   },
   {
     code: 'Chopper',
@@ -243,23 +200,7 @@ const teams = [
     role: 'Gum Gum Developer',
     avatar: teamLuffy,
     profileUrl: '',
-    profile: "<p><strong>I.SUMMARY</strong></p>\
-    <p>I am a PHP developer specializing in creating and modifying professional websites with 5+ years of experience. I will do any type of php job for you. And also I have experience with YII, Phalcon, CI and Laravel framework.</p>\
-    <p>• Knowledge of functional, reliability and performance testing.\
-        • Experience of working in pressured environment to strict deadlines.\
-        • Able to test multiple projects at the same time.\
-        • Ability to learn new software quickly.\
-        • A thorough understanding of the software development process.\
-        • Comprehensive understanding of computer programming languages: C# , PHP , JavaScript , CSS3 , SASS,DOM, HTML,HTML5,Adobe Photoshop\
-        • Extensive knowledge of the full software testing life-cycle.\
-    • Good understanding of: Linux, Apache, UNIX, SQL, LANs, WANs.</p>\
-    <p><strong>II.PROFESSIONAL EXPERIENCE</strong></p>\
-    <p>April 2010 - 2012\
-        ClearPath Development Danang - Web Developer<br>\
-        • Applied advanced HTML, JavaScript, and CSS to deliver cutting-edge user interfaces and components.\
-        • Contributed user interface design mockups and designs.\
-        • Trained and mentored teammates.\
-    • Worked with product groups to develop and enhance usability.</p>",
+    profile: "",
   },
   {
     code: 'Sabo',
@@ -267,22 +208,7 @@ const teams = [
     role: 'Revolutionary Developer',
     avatar: teamSabo,
     profileUrl: '',
-    profile: "<p><strong>I.SUMMARY</strong></p>\
-    <p>• More than 6 years strongly experienced in web development. </p>\
-    <p>• Creative, ability to work in a team or alone. Able handle project from small to large with many developers </p>\
-    <p>• Research and apply new technologies quickly. Always update new technologies, quickly adapt and apply to project. </p>\
-    <p>• Experience with design pattern. </p>\
-    <p>• Analyst system requirements and help team to archive them Good English in working and communication. </p>\
-    <p>• Building high scale and high performance web application by using newest trends/technologies. </p>\
-    <p>• Have deeply experienced in e-commerce, with NoSQL and searching system.</p>\
-    <p><strong>II.KEY EXPERTISES</strong></p>\
-    <p>• PHP, framework: Yii2, Laravel, Symfony </p>\
-    <p>• Java, Python, NodeJS, Ruby On Rails, Golang (Beego Framework) </p>\
-    <p>• ElasticSearch </p>\
-    <p>• Mongodb, Couchbase, Neo4J, Redis, Memcache </p>\
-    <p>• AngularJS, ReactJS Unit Test, Automation Test (Cucumber) </p>\
-    <p>• Full-Stack Developer </p>\
-    <p>• Able to handle from small to medium team</p>",
+    profile: "",
   },
   {
     code: 'Sunny',
@@ -290,43 +216,7 @@ const teams = [
     role: 'Supernova Coder',
     avatar: teamSunny,
     profileUrl: '',
-    profile:"<p><strong>I.SUMMARY</strong></p>\
-    <p>A senior web developer engineer.</p>\
-    <ul>\
-        <li>PHP backend.</li>\
-        <li>Framework: Drupal, CI, Wordpress, Yii2</li>\
-    </ul>\
-    <p><strong>II.PROFESSIONAL EXPERIENCE</strong></p>\
-    <ul>\
-        <li>DEK Technology (May 2012 – Present)</li>\
-    </ul>\
-    <p><strong>Project 1 (10/2014–8/2015)</strong></p>\
-    <p>Responsibilities:\
-        • Develop backend feature for user can manage content.\
-        • Build a small social network use internal for company.\
-        Technologies:\
-        • PHP</p>\
-    <p><strong>Apps &amp; tools applied:</strong>\
-        • Wordpress, CI</p>\
-    <ul>\
-        <li>PhucKhang.com.vn (10/2014–8/2015)</li>\
-    </ul>\
-    <p>Responsibilities:\
-        • Develop backend feature for user can manage content.</p>\
-    <p>• Build a small social network use internal for company.</p>\
-    <p>Technologies:\
-        • PHP</p>\
-    <p><strong>Apps &amp; tools applied:</strong></p>\
-    <p>• Wordpress, CI</p>\
-    <p><strong>Leadtowin.ca (9/2015 – 4/2016)</strong></p>\
-    <p>Responsibilities:\
-        • Change old flow for founder.\
-        • Update page User Interface.\
-        • Build some new feature for founder and reviewer.</p>\
-    <p>Technologies:\
-        • PHP</p>\
-    <p>Apps &amp; tools applied:\
-        • Drupal 7</p>",
+    profile:"",
   },
   {
     code: 'Monkey D Dragon',
@@ -334,23 +224,7 @@ const teams = [
     role: 'Revolution Server Expert',
     avatar: teamDragon,
     profileUrl: '',
-    profile: "<p><strong>I.SUMMARY</strong></p>\
-    <p>• Work well under pressure and in hard condition/ adverse weather, remote areas.</p>\
-    <p>• Strong research and writing ability.</p>\
-    <p>• Excellent computer skills.</p>\
-    <p>• Speak confidently before the public.</p>\
-    <p>• High teamwork skills.</p>\
-    <p>• Strong presentation and facilitation skills, including an ability to build relationships and capacity with international and local partners.</p>\
-    <p>• Cooperate constructively with supervisors; reliable and responsible; work hard and complete projects on schedule.</p>\
-    <p>• Have experience working with ISO27001 standard, ISMS </p>\
-    <p><strong>II.KEY EXPERTISES</strong></p>\
-    <p>• Knowledgeable in Operating systems: Windows, Linux, Mac OSX </p>\
-    <p>• Experience in internet: VPN, cloud server,</p>\
-    <p>• Implement of Sysadmin project: Deploy Webserver, MySQL, Nginx, Apache, write bash script,…</p>\
-    <p>• Networking systems configuration, handle troubleshoot</p>\
-    <p>• Support helpdesk</p>\
-    <p><strong>III.PROFESSIONAL EXPERIENCE</strong></p>\
-    <p>(July 2012 – Present) Global CyberSoft ( Viet Nam) JSC</p>",
+    profile: "",
   },
   {
     code: 'Nami',
@@ -358,10 +232,7 @@ const teams = [
     role: 'Revolution Developer',
     avatar: teamNami,
     profileUrl: '',
-    profile: "<p><strong>I. SUMMARY</strong></p>\
-    <p>From 2010 to 2013, I studied in Nguyen Duy Hieu high school and now, I’m a junior at Duy Tan university. My major is software engineering. I chose it is my passion and I wish I would be a talented developer.</p>\
-    <p>❖ Highlight skill or strong point 1: Communication</p>\
-    <p>❖ Highlight skill or strong point 2:</p>",
+    profile: "",
   },
   {
     code: 'Smoke',

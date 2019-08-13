@@ -1,7 +1,7 @@
 @font-face {
   font-family: "OnePiece";
-  src: url(../styles/fonts/ONEPIECE.woff2) format("woff2"),
-    url(../styles/fonts/ONEPIECE.woff) format("woff");
+  src: url(../styles/fonts/onepiece.woff2) format("woff2"),
+    url(../styles/fonts/onepiece.woff) format("woff");
 }
 
 html {
@@ -260,7 +260,7 @@ h2 {
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 2.25rem;
+  font-size: 2.65rem;
   line-height: 1.1;
 }
 h3 {
@@ -393,7 +393,7 @@ p {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.625rem;
+  margin-bottom: 1.45rem;
 }
 figure {
   margin-left: 0;
