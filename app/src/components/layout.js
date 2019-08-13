@@ -7,7 +7,7 @@ import Footer from "./footer"
 import ContactDevider from "./contactDevider"
 import Contact from "./contact"
 import Copyright from "./copyright"
-import "./layout.css"
+import "./layout.css";
 
 const Layout = ({ children }) => (
   <StaticQuery
