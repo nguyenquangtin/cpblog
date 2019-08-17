@@ -1,5 +1,3 @@
-//import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
 import logo from '../images/logo.png'
 import styled from 'styled-components'
@@ -11,12 +9,12 @@ const WaveBottom = styled.div`
   bottom: -6px;
 `;
 
-const WaveTop = styled.div`
-  position: absolute;
-  width: 100%;
-  top: -6px;
-  transform: rotate(180deg);
-`;
+// const WaveTop = styled.div`
+//   position: absolute;
+//   width: 100%;
+//   top: -6px;
+//   transform: rotate(180deg);
+// `;
 
 
 const Banner = ({ siteTitle }) => (

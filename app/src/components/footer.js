@@ -1,5 +1,3 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
 import logoFooter from '../images/logo_footer.png'
 const Footer = () => (
@@ -10,7 +8,7 @@ const Footer = () => (
       <div className="col-md-7">
 
         <div className="logo-footer">
-            <img src={logoFooter} className="img-responsive logo-shape" />
+            <img src={logoFooter} className="img-responsive logo-shape" alt="CipherPols Logo" />
             <div className="logo-text">Cipherpols</div>
         </div>
 

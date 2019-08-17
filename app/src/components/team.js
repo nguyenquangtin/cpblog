@@ -1,5 +1,3 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React, { Component } from 'react'
 import Swal from 'sweetalert2'
 import styled from 'styled-components';
@@ -7,6 +5,8 @@ import styled from 'styled-components';
 // Asssets import
 import teamZoro from "../images/team_zoro.jpg";
 import teamZoroBig from "../images/team_zoro_big.png";
+import teamLaw from "../images/team_law.jpg";
+import teamLawBig from "../images/team_law_big.png";
 import teamChopper from "../images/team_chopper.jpg";
 import teamChopperBig from "../images/team_chopper_big.png";
 import teamNami from "../images/team_nami.jpg";
@@ -217,6 +217,18 @@ const teams = [
     skills: "Technology planning, Advanced critical thinking, Team leadership, System analysis, Code delivery review, Resource scheduling, Expert in PHP and web development",
     birthday: "04th Aug",
     special: "NA",
+  },
+  {
+    code: 'ドゥク ドゥオング (duku duongu)',
+    name: 'Duc Duong',
+    role: 'Backend Developer',
+    avatar: teamLaw,
+    profilePhoto: teamLawBig,
+    profileUrl: 'https://www.linkedin.com/in/duongthienduc/',
+    profile: "As an experienced backend developer, Law participated in many kinds of projects: portal, blockchain, microservices. Being good at researching, solving problem, team working, he is pretty adaptable and can assimilate easily into a new environment.",
+    skills: "NodeJS, Java",
+    birthday: "4th May",
+    special: "Image processing",
   },
   {
     code: 'トニー ングイアン <br /> (tonii nguian)',
