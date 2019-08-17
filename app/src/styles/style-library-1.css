@@ -3,6 +3,7 @@
 
 /* GOOGLE FONTS */
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,600,600i,700,700i&display=swap&subset=vietnamese");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,900&display=swap");
 /* @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic);
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,700italic,700,500italic,500,400italic,300italic,300);
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700); */
@@ -328,7 +329,7 @@ h6,
 
 p {
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 1.12rem;
   line-height: 1.6;
   margin: 15px 0;
   color: #515157;

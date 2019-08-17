@@ -20,6 +20,7 @@ import teamKizaru from "../images/team_kizaru.png";
 import teamKizaruBig from "../images/team_kizaru_big.png";
 import teamSmoker from "../images/team_smoker.png";
 import teamSmokerBig from "../images/team_smoker_big.png";
+import frame from "../images/bounty_frame.jpg";
 
 class Team extends Component {
   constructor(props) {
@@ -62,11 +63,12 @@ class Team extends Component {
 
   render() {
     return (
-      <section className="content-block team-1">
-        <div className="container">
+      <section className="content-block">
+        <div className="container-fluid">
+
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center">
-              <h1>MEMBERS OF CIPHERPOLS</h1>
+              <h1>CIPHERPOLS CREWS</h1>
               <p>
                 Each of our member is represented by a character found in The One Piece. Please choose the best character your project in the below list. For more information, please contact us in the form below.
               </p>
@@ -104,17 +106,21 @@ export default Team
 
 const CardWrapper = styled.div`
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 90%;
 `;
 
 const Container = styled.div`
-  background: white;
-  width: 200px;
-  height: 320px;
-  border-radius: 14px;
+  /* background: red; */
+  background-image: url(${frame});
+  background-size: cover;
+  width: 300px;
+  height: 424.5px;
+  /* border-radius: 14px; */
   margin: 20px 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
   position: relative;
   cursor: pointer;
 
@@ -126,8 +132,9 @@ const Container = styled.div`
   }
 
   &:hover img {
-    transform: translateY(-20px);
-    transition: all .2s ease-in;
+    filter: none;
+    -webkit-filter: sepia(0);
+    -ms-filter: sepia(0%);
     transition-delay: .1s;
   }
 `;
@@ -136,36 +143,44 @@ const Cover = styled.div`
   display: flex;
   position: relative;
   width: 100%;
-  height: 200px;
+  height: 265px;
   border-top-left-radius: 14px;
   border-top-right-radius: 14px;
 `;
 
 const Image = styled.img`
-  width: 100%;
-  height: 100%;
+  width: 246px;
+  height: 179px;
   position: absolute;
-  top: 0;
-  left: 0;
-`;
-
-const Wrapper = styled.div`
-  justify-content: center;
-  text-align: center;
+  top: 90px;
+  left: 27px;
+  filter: sepia(100%);
+    -webkit-filter: sepia(1);
+    -ms-filter: sepia(100%);
 `;
 
 const Content = styled.div`
   padding-left: 20px;
   flex-direction: row;
   align-items: center;
-  height: 80px;
+  height: 150px;
 `;
 
-const Caption = styled.h4`
-  color: #3c4560;
-  font-size: 24px;
-  font-weight: 600;
+const Wrapper = styled.div`
+  justify-content: center;
+  text-align: center;
   padding-top: 20px;
+`;
+
+
+const Caption = styled.h4`
+  color: #49361c;
+  text-transform: uppercase;
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  font-weight: 900;
+  padding-top: 20px;
+  letter-spacing:-0.5px;
   padding-bottom: 0;
   margin-bottom: 0;
   justify-content: center;
@@ -173,11 +188,12 @@ const Caption = styled.h4`
 `;
 
 const Subtitle = styled.span`
-  color: #b8bece;
-  font-weight: 600;
-  font-size: 15px;
+  color: #49361c;
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: 21px;
   margin-top: 4px;
-  display: 'inline-block',
+  display: 'inline-block';
 `;
 
 const Title = styled.h4`
@@ -187,6 +203,7 @@ const Title = styled.h4`
   margin-top: 20px;
   margin-left: 20px;
   width: 170px;
+  display: none;
 `;
 
 const teams = [
@@ -203,18 +220,6 @@ const teams = [
     special: "NA",
   },
   {
-    code: 'Law',
-    name: 'Duc Duong',
-    role: 'Operation Coder',
-    avatar: teamLaw,
-    profilePhoto: "",
-    profileUrl: '',
-    profile: "",
-    skills: "",
-    birthday: "",
-    special: "",
-  },
-  {
     code: 'トニー ングイアン <br /> (tonii nguian)',
     name: 'Tony Nguyen',
     role: 'Website Doctor',
@@ -227,56 +232,45 @@ const teams = [
     special: "Hito Hito no Mi",
   },
   {
-    code: 'Luffy',
-    name: 'Nhan Doan',
-    role: 'Gum Gum Developer',
-    avatar: teamLuffy,
-    profilePhoto: "",
-    profileUrl: '',
-    profile: "",
-    skills: "",
-    birthday: "",
-    special: "",
-  },
-  {
-    code: 'Sabo',
-    name: 'Duy Nguyen',
-    role: 'Revolutionary Developer',
-    avatar: teamSabo,
-    profilePhoto: "",
-    profileUrl: '',
-    profile: "",
-    skills: "",
-    birthday: "",
-    special: "",
-  },
-  {
-    code: 'Sunny',
-    name: 'Phat Nguyen',
-    role: 'Supernova Coder',
+    code: 'ドゥング ル <br /> (dungu ru)',
+    name: 'Dung Le',
+    role: 'Mobile star',
     avatar: teamSunny,
-    profilePhoto: "",
-    profileUrl: '',
-    profile:"",
-    birthday: "",
-    special: "",
+    profilePhoto: teamSunny,
+    profileUrl: 'https://www.linkedin.com/in/dunglehuy/',
+    profile: "Across the last 8 years, Ray represents an experienced and advanced skill set of iOS and android. He is a specialist in creating and developing multiple apps.",
+    skills: "C/C++, Objective-C, swift, Java working on mobile applications and on large-scale system, Core ML, Tensorflow, OpenCV",
+    birthday: "1st Jan",
+    special: "Image processing",
   },
+  // {
+  //   code: 'Sabo',
+  //   name: 'Duy Nguyen',
+  //   role: 'Revolutionary Developer',
+  //   avatar: teamSabo,
+  //   profilePhoto: "",
+  //   profileUrl: '',
+  //   profile: "",
+  //   skills: "",
+  //   birthday: "",
+  //   special: "",
+  // },
   {
-    code: 'Monkey D Dragon',
-    name: 'Tuan Nguyen',
-    role: 'Revolution Server Expert',
-    avatar: teamDragon,
-    profilePhoto: "",
-    profileUrl: '',
-    profile: "",
-    skills: "",
-    birthday: "",
+    code: 'フオング ブ (fuongu bu)',
+    name: 'Phuong Vu',
+    role: 'Python cooker',
+    avatar: 'https://i.pinimg.com/originals/f9/cd/63/f9cd636e3e5d98442d9e07bc5964b284.jpg',
+    profilePhoto: 'https://i.redd.it/ti1v42gndzhy.png',
+    profileUrl: 'https://www.linkedin.com/in/phanvuphuong/',
+    profile: "In last 8 years, as a python cooker, he joined and help built many kinds of product: social network, entertaiment, AI assistant from backend to frontend. Works with passion and delivers good quality products.",
+    skills: "Python, Django, Scrapy, Nuxtjs, AWS, PHP killer",
+    birthday: "17th Jul",
     special: "",
   },
   {
    code: 'ビ ハ <br />(bi ha)',
    name: 'Vi Ha',
-   role: 'coder',
+   role: 'Coder',
    avatar: teamNami,
    profilePhoto: teamNamiBig,
    profileUrl: 'https://www.linkedin.com/in/hathanhvi/',
