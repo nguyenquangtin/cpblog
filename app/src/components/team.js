@@ -5,20 +5,19 @@ import Swal from 'sweetalert2'
 import styled from 'styled-components';
 
 // Asssets import
-import teamZoro from "../images/team_zoro.png";
+import teamZoro from "../images/team_zoro.jpg";
 import teamZoroBig from "../images/team_zoro_big.png";
-import teamLaw from "../images/team_law.png";
-import teamChopper from "../images/team_chopper.png";
+import teamChopper from "../images/team_chopper.jpg";
 import teamChopperBig from "../images/team_chopper_big.png";
-import teamLuffy from "../images/team_luffy.png";
-import teamDragon from "../images/team_dragon.png";
-import teamNami from "../images/team_nami.png";
+import teamNami from "../images/team_nami.jpg";
 import teamNamiBig from "../images/team_nami_big.jpg";
-import teamSabo from "../images/team_sabo.png";
-import teamSunny from "../images/team_sunny.png";
-import teamKizaru from "../images/team_kizaru.png";
+import teamSanji from "../images/team_sanji.jpg";
+import teamSanjiBig from "../images/team_sanji_big.png";
+import teamRay from "../images/team_ray.jpg";
+import teamRayBig from "../images/team_ray_big.jpg";
+import teamKizaru from "../images/team_kizaru.jpg";
 import teamKizaruBig from "../images/team_kizaru_big.png";
-import teamSmoker from "../images/team_smoker.png";
+import teamSmoker from "../images/team_smoker.jpg";
 import teamSmokerBig from "../images/team_smoker_big.png";
 import frame from "../images/bounty_frame.jpg";
 
@@ -235,8 +234,8 @@ const teams = [
     code: 'ドゥング ル <br /> (dungu ru)',
     name: 'Dung Le',
     role: 'Mobile star',
-    avatar: teamSunny,
-    profilePhoto: teamSunny,
+    avatar: teamRay,
+    profilePhoto: teamRayBig,
     profileUrl: 'https://www.linkedin.com/in/dunglehuy/',
     profile: "Across the last 8 years, Ray represents an experienced and advanced skill set of iOS and android. He is a specialist in creating and developing multiple apps.",
     skills: "C/C++, Objective-C, swift, Java working on mobile applications and on large-scale system, Core ML, Tensorflow, OpenCV",
@@ -259,8 +258,8 @@ const teams = [
     code: 'フオング ブ (fuongu bu)',
     name: 'Phuong Vu',
     role: 'Python cooker',
-    avatar: 'https://i.pinimg.com/originals/f9/cd/63/f9cd636e3e5d98442d9e07bc5964b284.jpg',
-    profilePhoto: 'https://i.redd.it/ti1v42gndzhy.png',
+    avatar: teamSanji,
+    profilePhoto: teamSanjiBig,
     profileUrl: 'https://www.linkedin.com/in/phanvuphuong/',
     profile: "In last 8 years, as a python cooker, he joined and help built many kinds of product: social network, entertaiment, AI assistant from backend to frontend. Works with passion and delivers good quality products.",
     skills: "Python, Django, Scrapy, Nuxtjs, AWS, PHP killer",
