@@ -36,12 +36,10 @@ const Services = ({ siteTitle }) => (
 	                    <img src={iconUpdate} alt="UP TO DATE SOLUTION" />
 	                </div>
 	                <div className="col-xs-10">
-	                    <div className="editContent">
+	                    <FeatureItem>
 	                        <h4>FULLSTACK</h4>
-	                    </div>
-	                    <div className="editContent">
 	                        <p>We are fullstacks team using major programning languages. Check out our project portfolio to see our past work.</p>
-	                    </div>
+                      </FeatureItem>
 	                </div>
 	            </div>
 	            <div className="col-md-12 col-sm-12 col-xs-12 pad25">
@@ -49,12 +47,10 @@ const Services = ({ siteTitle }) => (
 	                	<img src={iconUnique} alt="UNIQUE DESIGN" />
 	                </div>
 	                <div className="col-xs-10">
-	                    <div className="editContent">
+                      <FeatureItem>
 	                        <h4>UNIQUE DESIGN</h4>
-	                    </div>
-	                    <div className="editContent">
 	                        <p>Try our design to deliver the best UI/UX for your software.</p>
-	                    </div>
+                      </FeatureItem>
 	                </div>
 	            </div>
 	            <div className="col-md-12 col-sm-12 col-xs-12 pad25">
@@ -62,12 +58,10 @@ const Services = ({ siteTitle }) => (
 	                  <img src={iconCoding} alt="PROFESSIONAL CODING" />
 	                </div>
 	                <div className="col-xs-10">
-	                    <div className="editContent">
+                        <FeatureItem>
 	                        <h4>CONSULTATION</h4>
-	                    </div>
-	                    <div className="editContent">
 	                        <p>Contact us to enjoy the first consultation meeting at no cost. We have experienced consultant for your business whether it is well-established or startup.</p>
-	                    </div>
+                       </FeatureItem>
 	                </div>
 	        			</div>
 
@@ -76,12 +70,10 @@ const Services = ({ siteTitle }) => (
       			            <img src={iconQc} alt="QC TEST" />
       			        </div>
       			        <div className="col-xs-10">
-      			            <div className="editContent">
-      			                <h4>TESTING SERVICE</h4>
-      			            </div>
-      			            <div className="editContent">
-      			                <p>Enjoy our cost-efficiency testing service for your software. Leave the tedious job to us and enjoy a high quality software.</p>
-      			            </div>
+                      <FeatureItem>
+                        <h4>TESTING SERVICE</h4>
+                        <p>Enjoy our cost-efficiency testing service for your software. Leave the tedious job to us and enjoy a high quality software.</p>
+                      </FeatureItem>
       			        </div>
       						</div>
 				    </div>
@@ -102,6 +94,12 @@ const Feature = styled.div`
   height: 650px;
   text-align: center;
   color: #FFF;
+`;
+
+const FeatureItem = styled.div`
+  p {
+    margin-bottom: 0.45rem;
+  }
 `;
 
 export default Services
