@@ -9,6 +9,8 @@ import teamLaw from "../images/team_law.jpg";
 import teamLawBig from "../images/team_law_big.png";
 import teamChopper from "../images/team_chopper.jpg";
 import teamChopperBig from "../images/team_chopper_big.png";
+import teamSabo from "../images/team_sabo.jpg";
+import teamSaboBig from "../images/team_sabo_big.jpg";
 import teamNami from "../images/team_nami.jpg";
 import teamNamiBig from "../images/team_nami_big.jpg";
 import teamSanji from "../images/team_sanji.jpg";
@@ -209,7 +211,7 @@ const teams = [
   {
     code: 'トゥアンズオン <br /> (tuan duong)',
     name: 'Tuan Duong',
-    role: 'Pirate Hunter',
+    role: 'Coder Hunter',
     avatar: teamZoro,
     profilePhoto: teamZoroBig,
     profileUrl: 'https://www.linkedin.com/in/tuandm/',
@@ -219,16 +221,16 @@ const teams = [
     special: "NA",
   },
   {
-    code: 'ドゥク ドゥオング (duku duongu)',
+    code: 'ドゥク ドゥオング <br /> (duku duongu)',
     name: 'Duc Duong',
-    role: 'Backend Developer',
+    role: 'Death Runner',
     avatar: teamLaw,
     profilePhoto: teamLawBig,
     profileUrl: 'https://www.linkedin.com/in/duongthienduc/',
     profile: "As an experienced backend developer, Law participated in many kinds of projects: portal, blockchain, microservices. Being good at researching, solving problem, team working, he is pretty adaptable and can assimilate easily into a new environment.",
     skills: "NodeJS, Java",
     birthday: "4th May",
-    special: "Image processing",
+    special: "",
   },
   {
     code: 'トニー ングイアン <br /> (tonii nguian)',
@@ -243,31 +245,19 @@ const teams = [
     special: "Hito Hito no Mi",
   },
   {
-    code: 'ドゥング ル <br /> (dungu ru)',
-    name: 'Dung Le',
-    role: 'Mobile star',
-    avatar: teamRay,
-    profilePhoto: teamRayBig,
-    profileUrl: 'https://www.linkedin.com/in/dunglehuy/',
-    profile: "Across the last 8 years, Ray represents an experienced and advanced skill set of iOS and android. He is a specialist in creating and developing multiple apps.",
-    skills: "C/C++, Objective-C, swift, Java working on mobile applications and on large-scale system, Core ML, Tensorflow, OpenCV",
-    birthday: "1st Jan",
-    special: "Image processing",
+    code: 'ドゥイ ングイアン <br />(dui nguian)',
+    name: 'Duy Nguyen',
+    role: 'Big Data Engineer',
+    avatar: teamSabo,
+    profilePhoto: teamSaboBig,
+    profileUrl: 'https://www.linkedin.com/in/duynguyenhoang/',
+    profile: "More than 10 years in Web development and 3 years working in Big Data Architecture. Working with many kinds of project especially in e-commerce. Eager to learn and adapt with new technologies, nonstop expanding. ",
+    skills: "NodeJs, PHP, Python, Java, Golang, ReactJs, Vuejs, Apache Ecosystem, Cloud (AWS, GCP)",
+    birthday: "18th Sep",
+    special: "Big Data Architecture"
   },
-  // {
-  //   code: 'Sabo',
-  //   name: 'Duy Nguyen',
-  //   role: 'Revolutionary Developer',
-  //   avatar: teamSabo,
-  //   profilePhoto: "",
-  //   profileUrl: '',
-  //   profile: "",
-  //   skills: "",
-  //   birthday: "",
-  //   special: "",
-  // },
   {
-    code: 'フオング ブ (fuongu bu)',
+    code: 'フオング ブ<br /> (fuongu bu)',
     name: 'Phuong Vu',
     role: 'Python cooker',
     avatar: teamSanji,
@@ -290,7 +280,19 @@ const teams = [
    birthday: "9th May",
    special: "Meo Meo",
    },
-  {
+   {
+    code: 'ドゥング ル <br /> (dungu ru)',
+    name: 'Dung Le',
+    role: 'Mobile star',
+    avatar: teamRay,
+    profilePhoto: teamRayBig,
+    profileUrl: 'https://www.linkedin.com/in/dunglehuy/',
+    profile: "Across the last 8 years, Ray represents an experienced and advanced skill set of iOS and android. He is a specialist in creating and developing multiple apps.",
+    skills: "C/C++, Objective-C, swift, Java working on mobile applications and on large-scale system, Core ML, Tensorflow, OpenCV",
+    birthday: "1st Jan",
+    special: "Image processing",
+   },
+   {
     code: 'フイ クアン <br />(hui kuan)',
     name: 'Huy Quan',
     role: 'Marine Developer',

@@ -40,8 +40,7 @@ class Clients extends Component {
             <div className="col-md-10 col-md-offset-1 text-center">
               <h1>CLIENTS</h1>
               <p>
-                Our customers have trusted in our work, don't be hesitate to join our happy customer team. <br />
-                Cipherpol will elevate your business website to the next level.
+                Our customers have trusted in our work, don't be hesitate to join our happy customer team. CipherPols will elevate your business website to the next level.
               </p>
             </div>
           </div>

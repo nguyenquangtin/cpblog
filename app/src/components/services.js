@@ -37,10 +37,10 @@ const Services = ({ siteTitle }) => (
 	                </div>
 	                <div className="col-xs-10">
 	                    <div className="editContent">
-	                        <h4>PHP</h4>
+	                        <h4>FULLSTACK</h4>
 	                    </div>
 	                    <div className="editContent">
-	                        <p>We are specialized in all PHP framework. Check out our project portfolio to see our past work.</p>
+	                        <p>We are fullstacks team using major programning languages. Check out our project portfolio to see our past work.</p>
 	                    </div>
 	                </div>
 	            </div>
