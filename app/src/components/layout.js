@@ -9,6 +9,15 @@ import Contact from "./contact"
 import Copyright from "./copyright"
 import "./layout.css";
 
+if (typeof window !== 'undefined') {
+	// eslint-disable-next-line global-require
+	require('smooth-scroll')('a[href*="#"]', {
+		speed: 800,
+		speedAsDuration: true,
+		easing: 'easeInOutCubic'
+	})
+}
+
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`

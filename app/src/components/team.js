@@ -1,5 +1,9 @@
 import React, { Component } from 'react'
-import Swal from 'sweetalert2'
+//import Swal from 'sweetalert2'
+import Swal from 'sweetalert2/dist/sweetalert2.js'
+//import 'sweetalert2/src/sweetalert2.scss'
+
+
 import styled from 'styled-components';
 
 // Asssets import

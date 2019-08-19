@@ -25,6 +25,7 @@ const Banner = ({ siteTitle }) => (
         <img
           src={logo}
           className="brand-img img-responsive"
+          alt="Cipherpols Logo"
         />
       </div>
       {/* <div className="navicon">

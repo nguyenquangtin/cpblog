@@ -7,10 +7,8 @@ const Copyright = () => (
 				<div className="col-md-6 col-xs-12 pull-left">
 					<div className="social-wrap">
 						<ul className="social social-dark">
-							<li><a href="#"><i className="fa fa-2x fa-facebook"></i></a></li>
-							<li><a href="#"><i className="fa fa-2x fa-twitter"></i></a></li>
-							<li><a href="#"><i className="fa fa-2x fa-pinterest"></i></a></li>
-							<li><a href="#"><i className="fa fa-2x fa-dribbble"></i></a></li>
+							<li><a href="#" target="_blank" rel="noopener"><i className="fa fa-2x fa-facebook"></i></a></li>
+							<li><a href="#" target="_blank" rel="noopener"><i className="fa fa-2x fa-twitter"></i></a></li>
 						</ul>
 					</div>
 				</div>

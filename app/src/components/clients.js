@@ -47,15 +47,12 @@ class Clients extends Component {
           <div className="clearfix"></div>
           <div className="cients-wrap">
             <div className="row">
-
               <div className="col-md-offset-1">&nbsp;</div>
-
-              {clients.map( (client, index) => (
-                <ClientCard key={index} className="col-md-2 col-sm-4 col-xs-6" onClick={() => this.handleClick(client)}>
-                  <img alt={client.name} src={client.logo} />
-                </ClientCard>
-              ))}
-
+                {clients.map( (client, index) => (
+                  <ClientCard key={index} className="col-md-2 col-sm-4 col-xs-6" onClick={() => this.handleClick(client)}>
+                    <img alt={client.name} src={client.logo} />
+                  </ClientCard>
+                ))}`
             </div>
           </div>
         </div>
