@@ -15,6 +15,8 @@ import teamChopper from "../images/team_chopper.jpg";
 import teamChopperBig from "../images/team_chopper_big.png";
 import teamSabo from "../images/team_sabo.jpg";
 import teamSaboBig from "../images/team_sabo_big.jpg";
+import teamCoby from "../images/team_coby.png";
+import teamCobyBig from "../images/team_coby_big.png";
 import teamNami from "../images/team_nami.jpg";
 import teamNamiBig from "../images/team_nami_big.jpg";
 import teamSanji from "../images/team_sanji.jpg";
@@ -247,6 +249,18 @@ const teams = [
     skills: "Javascript, NodeJS, ReactJS, CSS3, HTML5, PHP, UI/UX.",
     birthday: "29th Nov",
     special: "Hito Hito no Mi",
+  },
+  {
+    code: 'アイン トゥング ングイアン <br /> (anh tung nguyen)',
+    name: 'Anh T. Nguyen',
+    role: 'Project Manager',
+    avatar: teamCoby,
+    profilePhoto: teamCobyBig,
+    profileUrl: 'https://www.linkedin.com/in/tommynguyen1983/',
+    profile: "Information and business technologies delivery expert with 12+ years of hands-on and know how experience in applications (web, mobile & enterprise application) cultivated from multi-industries. 7-years of large Enterprise experience (with more than 1500 employees) in which successfully managing project portfolios up to $1.5m and 50 team members.\r\n\ <br /><br /> I deliver value, enablement and growth through the technology-business fit. Experienced in capturing the complex requirements from different departments to deliver the solution that benefit the Enterprise and align with its strategy. Proficient in orchestrating people and teams, developing, planning, estimating and executing technology initiatives, projects, scopes and budgets, aligning them with objectives, and managing resources to deliver outcomes that contribute to stakeholders' (internal & external) success and organizational growth.",
+    skills: "Project Management, Team leadership, Agile, SDLC, Scrum, XP, Requirement captures, Documentation",
+    birthday: "23th Nov",
+    special: "NA",
   },
   {
     code: 'ドゥイ ングイアン <br />(dui nguian)',

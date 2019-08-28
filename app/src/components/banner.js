@@ -1,6 +1,7 @@
 import React from "react"
 import logo from '../images/logo.png'
 import styled from 'styled-components'
+import { Link } from "gatsby"
 import Wave from './wave';
 
 const WaveBottom = styled.div`
@@ -37,9 +38,9 @@ const Banner = ({ siteTitle }) => (
           <h1>YOUR <span className="blue">CIPHERPOLS</span> DO IT ALL</h1>
         </div>
       </div>
-      {/* <div className="col-xs-12 text-center">
-        <a href="#feature" className="btn btn-ghost">More Features</a>
-      </div> */}
+      <div className="col-xs-12 text-center">
+        <Link to="/#feature" className="btn btn-ghost">More Features</Link>
+      </div>
     </div>
   </section>
 )
