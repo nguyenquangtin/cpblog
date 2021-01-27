@@ -32,8 +32,8 @@ const Footer = () => (
           </li>
           <li>
             <span className="glyphicon glyphicon glyphicon-envelope"></span>
-            <a href="mailto:info@cipherpol@gmail.com">
-              &nbsp;  info@cipherpol@gmail.com
+            <a href="mailto:bacduong@gmail.com">
+              &nbsp;  bacduong@gmail.com
             </a>
           </li>
           <li>
