@@ -27,6 +27,8 @@ import teamKizaru from "../images/team_kizaru.jpg";
 import teamKizaruBig from "../images/team_kizaru_big.png";
 import teamSmoker from "../images/team_smoker.jpg";
 import teamSmokerBig from "../images/team_smoker_big.png";
+import teamNeptune from "../images/team_neptune.webp";
+import teamNeptuneBig from "../images/team_neptune.webp";
 import frame from "../images/bounty_frame.jpg";
 
 class Team extends Component {
@@ -257,7 +259,7 @@ const teams = [
     avatar: teamCoby,
     profilePhoto: teamCobyBig,
     profileUrl: 'https://www.linkedin.com/in/tommynguyen1983/',
-    profile: "Information and business technologies delivery expert with 12+ years of hands-on and know how experience in applications (web, mobile & enterprise application) cultivated from multi-industries. 7-years of large Enterprise experience (with more than 1500 employees) in which successfully managing project portfolios up to $1.5m and 50 team members.\r\n\ <br /><br /> I deliver value, enablement and growth through the technology-business fit. Experienced in capturing the complex requirements from different departments to deliver the solution that benefit the Enterprise and align with its strategy. Proficient in orchestrating people and teams, developing, planning, estimating and executing technology initiatives, projects, scopes and budgets, aligning them with objectives, and managing resources to deliver outcomes that contribute to stakeholders' (internal & external) success and organizational growth.",
+    profile: "Information and business technologies delivery expert with 12+ years of hands-on and know how experience in applications (web, mobile & enterprise application) cultivated from multi-industries. 7-years of large Enterprise experience (with more than 1500 employees) in which successfully managing project portfolios up to $1.5m and 50 team members.\r\n <br /><br /> I deliver value, enablement and growth through the technology-business fit. Experienced in capturing the complex requirements from different departments to deliver the solution that benefit the Enterprise and align with its strategy. Proficient in orchestrating people and teams, developing, planning, estimating and executing technology initiatives, projects, scopes and budgets, aligning them with objectives, and managing resources to deliver outcomes that contribute to stakeholders' (internal & external) success and organizational growth.",
     skills: "Project Management, Team leadership, Agile, SDLC, Scrum, XP, Requirement captures, Documentation",
     birthday: "23th Nov",
     special: "NA",
@@ -332,5 +334,16 @@ const teams = [
     skills: "Javascript, CSS3, HTML5, NodeJS, ReactJS, React Native, Flutter, Java, Python.",
     birthday: "29th Aug",
     special: "Pika Pika no Mi",
+  },
+  {
+    code: 'チョウ・ダン <br />(Chō dan)',
+    name: 'Chau Dang',
+    role: 'Cloud Consultant',
+    avatar: teamNeptune,
+    profilePhoto: teamNeptuneBig,
+    profile: "Programming with passion. Solid experience in Javascript, CSS3, HTML5, ReactJS, React Native, Flutter, Java.",
+    skills: "Product Management | Agile Development | Business & System Analysis | Solution & Architecture Design | Software Engineering | ICT Services Management | Project Implementation | Customer Experience | Stakeholder Management",
+    birthday: "31st Mar",
+    special: "AWS, GCP",
   }
 ];
